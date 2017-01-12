@@ -1,0 +1,105 @@
+/*---GENERAL STYLES---*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 1.2em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ /*---HEADER---*/
+header {
+  background-color: #06D6A0;
+  overflow: hidden;
+  line-height: 60px;
+  padding: 0 20px;
+}
+header h2 {
+  color: #fff;
+  margin: 0;
+  float: left;
+  font-size: 18px;
+}
+nav {
+  float: right;
+}
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/*---WELCOME---*/
+.welcome {
+  background-color: #26547C;
+  color: #fff;
+  overflow: hidden;
+}
+.welcome img {
+  width: 60%;
+  float: left;
+}
+.welcome h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+/*---CATS---*/
+.cats,
+.products,
+.about {
+  padding: 30px 20px;
+}
+.cats {
+  background-color: #FFD166;
+}
+
+/*---PRODUCTS---*/
+.products {
+  background-color: #F2F2F2;
+}
+.products ul {
+  overflow: hidden;
+}
+.products li {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.products img {
+  border: 3px solid #000;
+  max-width: 100%;
+  display: block;
+}
+
+/*---ABOUT---*/
+.about {
+  background-color: #26547C;
+  color: #fff;
+}
+.about ul {
+  overflow: hidden;
+}
+.about li {
+  color: #EF476F;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  padding: 1em 0;
+}
+
+/*---FOOTER---*/
+footer {
+  background-color: #06D6A0;
+  text-align: right;
+  line-height: 50px;
+  padding: 0 20px;
+}
